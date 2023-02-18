@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+     display: pink;
+     margin: 30px;
+     }
+
+main{
+    margin: 30px;
+}
+li{
+    color:aqua;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3em;
+
+    list-style-type:none;
+
+}
+li > a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    padding: 30px;
+
+}
+.menu{
+    display: flex;
+    flex-shrink: 2;
+    flex-basis: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.lemon-logo{
+    width: 600px;
+    height: auto;
+    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+.box {
+    width: 400;
+    height: auto;
+    margin: 10px;
+    border: 10px;
+}
+.img1 {
+    width: 300px;
+    height: auto;
+
+}
+.section2 {
+    display: flex;
+}
+.nav1 {
+    display: block;
+    background-color: aquamarine;
+
+}
+.logo {
+    background-color: palevioletred;
+
+}
+.section1 {
+    background-image: url("pexels-robin-stickel-70497.jpg");
+    background-size: 100%;
+    background-position: center;
+
+}
+.promo{
+    height: 300px;
+    width: auto;
+    color: antiquewhite;
+
+}
+.promo > h1 {
+    font-size: 40px;
+    padding-top: 30px;
+
+}
+.promo > h1 > p{
+    padding-top: 30px;
+    font-size: 30px;
+}
